@@ -1,0 +1,393 @@
+body {
+  background-color: #242b33;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover,
+a:focus {
+  color: #d4c17f;
+}
+
+.container {
+  width: 1175px;
+  margin: 0 auto;
+  padding-left: 32.5px;
+  padding-right: 32.5px;
+}
+
+.logo {
+  font-family: "Stick No Bills", sans-serif;
+  font-size: 36px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #fff;
+}
+
+.logo:hover, .logo:focus {
+  color: #d4c17f;
+}
+
+.logo__text {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.12em;
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.33;
+  color: #d4c17f;
+  margin-bottom: 100px;
+}
+
+.background-img {
+  background-image: url(../../image/photo/rectangle.jpg);
+}
+
+header {
+  padding-top: 30px;
+}
+
+.header-container,
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.hero {
+  padding: 200px 0 113px 0;
+  text-align: center;
+}
+
+.hero-container {
+  margin-right: 260px;
+  margin-left: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__title {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1.33;
+  color: #d4c17f;
+  margin-bottom: 100px;
+}
+
+.hero__icon-mouse {
+  margin-bottom: 190px;
+}
+
+.hero__connect-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__connect-icon {
+  margin-right: 15px;
+}
+
+.hero__connect-link {
+  display: flex;
+  align-items: center;
+}
+
+.adventanges {
+  padding-top: 104px;
+  padding-bottom: 120px;
+}
+
+.adventanges__text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17.5px;
+  line-height: 1.35;
+  margin-top: 53px;
+}
+
+.adventanges__list {
+  display: flex;
+  align-items: center;
+}
+
+.adventanges__item {
+  text-align: center;
+}
+
+.adventanges__item:not(:last-child) {
+  margin-right: 70px;
+}
+
+.adventanges__item:nth-child(1) {
+  width: 193px;
+}
+
+.adventanges__item:nth-child(1)::before {
+  content: " ";
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url(../../image/bench.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.adventanges__item:nth-child(2) {
+  width: 133px;
+}
+
+.adventanges__item:nth-child(2)::before {
+  content: " ";
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url(../../image/building.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.adventanges__item:nth-child(3) {
+  width: 134px;
+}
+
+.adventanges__item:nth-child(3)::before {
+  content: " ";
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url(../../image/fountain.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.adventanges__item:nth-child(4) {
+  width: 124px;
+}
+
+.adventanges__item:nth-child(4)::before {
+  content: " ";
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url(../../image/bicycle.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.adventanges__container {
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+.apartment__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.apartment__item {
+  margin-left: 30px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.apartment__text {
+  font-size: 24px;
+  line-height: 28px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.connect {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  background-image: url(../../image/photo/Rectangle5.jpg);
+}
+
+.connect .title {
+  margin-bottom: 50px;
+}
+
+.connect__text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-right: 35px;
+  width: 535px;
+}
+
+.connect__input {
+  background-color: #bebebe31;
+  color: #fff;
+  border: none;
+  text-align: center;
+  width: 255px;
+  height: 50px;
+}
+
+.connect__link {
+  background-color: #d4c17f;
+  width: 255px;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect__link:hover {
+  color: saddlebrown;
+}
+
+.connect__difent {
+  width: 255px;
+  height: 50px;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #e7e7e7;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.container-connect {
+  display: flex;
+}
+
+.container-connect-date {
+  width: 540px;
+}
+
+.connect-date {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.connect-date li {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 30px * 2) / 2);
+}
+
+.video {
+  padding-top: 650px;
+  background-image: url(../../image/photo/videopj.jpg);
+  background-repeat: no-repeat;
+  background-position: top 50% left 50%;
+  position: relative;
+}
+
+.video__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.map {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.map__container {
+  width: 1110px;
+  height: 358px;
+  background: #626262;
+}
+
+.question {
+  padding-bottom: 180px;
+}
+
+.question__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.question__list li {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 30px * 4) / 4);
+}
+
+footer {
+  background-color: #2d343c;
+  padding-top: 60px;
+  padding-bottom: 51px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer__nav {
+  font-style: normal;
+}
+
+.footer__nav li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.social-link-list {
+  margin-top: 20px;
+  display: flex;
+}
+
+.social-link-list li:not(:last-child) {
+  margin-right: 21px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,7 @@
+// prettier-ignore
+@mixin font($fs, $fw, $lh, $ls) {
+  @if ($fs) { font-size:      $fs; }
+  @if ($fw) { font-weight:    $fw; }
+  @if ($lh) { line-height:    $lh; }
+  @if ($ls) { letter-spacing: $ls; }
+} //14px, 400, 1.71, 0.03em default

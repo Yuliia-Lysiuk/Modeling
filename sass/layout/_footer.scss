@@ -1,0 +1,23 @@
+footer {
+  background-color: $footer-color;
+  padding-top: 60px;
+  padding-bottom: 51px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+.footer__nav {
+  font-style: normal;
+  li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+.social-link-list {
+  margin-top: 20px;
+  display: flex;
+  li:not(:last-child) {
+    margin-right: 21px;
+  }
+}

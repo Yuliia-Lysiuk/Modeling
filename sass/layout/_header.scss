@@ -1,0 +1,13 @@
+header {
+  padding-top: 30px;
+}
+// NAVIGATION
+.header-container,
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__item:not(:last-child) {
+  margin-right: 40px;
+}

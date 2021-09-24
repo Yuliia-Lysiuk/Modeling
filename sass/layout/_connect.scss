@@ -1,0 +1,64 @@
+.connect {
+  padding-top: 180px;
+  padding-bottom: 180px;
+
+  background-image: url(../../image/photo/Rectangle5.jpg);
+
+  .title {
+    margin-bottom: 50px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 35px;
+    width: 535px;
+  }
+  &__input {
+    background-color: $input-color;
+    color: $main-text-color;
+    border: none;
+    text-align: center;
+    width: 255px;
+    height: 50px;
+  }
+  &__link {
+    background-color: $accent-color;
+    width: 255px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      color: saddlebrown;
+    }
+  }
+  &__difent {
+    width: 255px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #e7e7e7;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+}
+.container-connect {
+  display: flex;
+}
+.container-connect-date {
+  width: 540px;
+}
+.connect-date {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  li {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100% - 30px * 2) / 2);
+  }
+}
